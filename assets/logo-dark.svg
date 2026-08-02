@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-labelledby="title">
+  <title id="title">Vibsync</title>
+  <g transform="translate(4)">
+    <g fill="none" stroke="#7c74ff" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M60 12C80 12 98 30 98 52C98 78 82 96 60 106C38 96 22 78 22 52C22 30 40 12 60 12Z" stroke-width="6"/>
+      <path d="M26 72C39 52 48 54 60 91C72 54 81 52 94 72" stroke-width="13"/>
+    </g>
+    <g fill="#7c74ff">
+      <circle cx="60" cy="12" r="9"/><circle cx="92" cy="32" r="9"/>
+      <circle cx="94" cy="72" r="9"/><circle cx="60" cy="106" r="9"/>
+      <circle cx="26" cy="72" r="9"/><circle cx="28" cy="32" r="9"/>
+    </g>
+  </g>
+  <text x="138" y="80" fill="#ffffff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="68" font-weight="700" letter-spacing="-2">Vibsync</text>
+</svg>

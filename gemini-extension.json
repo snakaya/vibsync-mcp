@@ -1,0 +1,13 @@
+{
+  "name": "vibsync-mcp",
+  "version": "0.2.2",
+  "description": "Long-term team memory and live work context for AI coding agents.",
+  "mcpServers": {
+    "vibsync": {
+      "httpUrl": "https://mcp.vibsync.com/mcp",
+      "description": "Shared long-term team memory and live work context across AI coding agents, sessions, and machines.",
+      "timeout": 600000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

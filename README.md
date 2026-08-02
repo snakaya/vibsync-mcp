@@ -131,6 +131,32 @@ bearer_token_env_var = "VIBSYNC_TOKEN"
 
 Ready-to-copy config files are in [`examples/`](./examples).
 
+## Install as an extension or plugin
+
+### Gemini CLI Extension
+
+Install Vibsync directly from this repository:
+
+```sh
+gemini extensions install https://github.com/loosedays/vibsync-mcp
+```
+
+Restart Gemini CLI, then run `/mcp auth vibsync` to sign in. See the full
+[Gemini CLI setup guide](./docs/GEMINI_CLI.md).
+
+### OpenAI plugin
+
+This repository includes an OpenAI plugin manifest backed by Vibsync's remote
+MCP server. See the [OpenAI plugin and directory guide](./docs/OPENAI_PLUGIN.md)
+for testing and submission details.
+
+### Google Agent Registry
+
+Google Agent Registry is a private catalog for a Google Cloud project or
+organization, rather than a public extension marketplace. Use the included
+[`google-agent-registry-toolspec.json`](./google-agent-registry-toolspec.json)
+and follow the [registration guide](./docs/GOOGLE_AGENT_REGISTRY.md).
+
 ## Tools
 
 | Area | Tools |

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Vibsync app icon</title>
+  <rect width="128" height="128" rx="28" fill="#4f46e5"/>
+  <g transform="translate(10 10) scale(.9)">
+    <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M60 12C80 12 98 30 98 52C98 78 82 96 60 106C38 96 22 78 22 52C22 30 40 12 60 12Z" stroke-width="6"/>
+      <path d="M26 72C39 52 48 54 60 91C72 54 81 52 94 72" stroke-width="13"/>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="60" cy="12" r="9"/><circle cx="92" cy="32" r="9"/>
+      <circle cx="94" cy="72" r="9"/><circle cx="60" cy="106" r="9"/>
+      <circle cx="26" cy="72" r="9"/><circle cx="28" cy="32" r="9"/>
+    </g>
+  </g>
+</svg>

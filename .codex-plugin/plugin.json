@@ -1,0 +1,44 @@
+{
+  "name": "vibsync-mcp",
+  "version": "0.2.2",
+  "description": "Long-term team memory and live work context for AI coding agents.",
+  "author": {
+    "name": "LOOSEDAYS Co., Ltd.",
+    "email": "support@vibsync.com",
+    "url": "https://loosedays.jp"
+  },
+  "homepage": "https://vibsync.com/getting-started",
+  "repository": "https://github.com/loosedays/vibsync-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "ai-coding-agents",
+    "team-memory",
+    "developer-tools",
+    "collaboration"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Vibsync",
+    "shortDescription": "Shared team memory for AI coding agents.",
+    "longDescription": "Give AI coding agents shared long-term memory and live work context across tools, sessions, machines, and team members. Vibsync preserves discoveries and product knowledge, coordinates tasks and questions, and helps agents avoid overlapping edits. It is a collaboration context layer, not an agent orchestrator.",
+    "developerName": "LOOSEDAYS Co., Ltd.",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://vibsync.com",
+    "privacyPolicyURL": "https://vibsync.com/privacy",
+    "termsOfServiceURL": "https://vibsync.com/terms",
+    "defaultPrompt": [
+      "Onboard me to my team's current AI development context.",
+      "Recall what the team already knows about this codebase.",
+      "Check for overlapping work before I edit these files."
+    ],
+    "brandColor": "#4F46E5",
+    "composerIcon": "./assets/app-icon.svg",
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg"
+  }
+}

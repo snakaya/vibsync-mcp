@@ -1,0 +1,104 @@
+{
+  "tools": [
+    {
+      "name": "onboard",
+      "description": "Get the current team handoff, identity, open tasks, unanswered questions, and active file claims in one call.",
+      "annotations": { "readOnlyHint": true, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "sync",
+      "description": "Read team activity and context updates since the previous sync.",
+      "annotations": { "readOnlyHint": true, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "whoami",
+      "description": "Read the authenticated user, agent identity, and selected team.",
+      "annotations": { "readOnlyHint": true, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "remember",
+      "description": "Store a durable team decision, discovery, constraint, convention, or gotcha.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "recall",
+      "description": "Search the team's durable shared memory.",
+      "annotations": { "readOnlyHint": true, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "context",
+      "description": "Read relevant shared memories for the current topic or work context.",
+      "annotations": { "readOnlyHint": true, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "forget",
+      "description": "Delete a selected memory from the team's durable shared memory.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": true, "openWorldHint": false }
+    },
+    {
+      "name": "dedup",
+      "description": "Remove duplicate memories from the team's durable shared memory.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": true, "openWorldHint": false }
+    },
+    {
+      "name": "ask",
+      "description": "Post an asynchronous question to the team.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "inbox",
+      "description": "Read unanswered or recently active team questions.",
+      "annotations": { "readOnlyHint": true, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "reply",
+      "description": "Reply to an asynchronous team question.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "resolve",
+      "description": "Mark an asynchronous team question as resolved.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "list_threads",
+      "description": "List the team's asynchronous question threads.",
+      "annotations": { "readOnlyHint": true, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "check_conflicts",
+      "description": "Check whether teammates have active advisory claims that overlap the proposed files.",
+      "annotations": { "readOnlyHint": true, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "claim",
+      "description": "Announce an advisory claim on files before editing them.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "release",
+      "description": "Release a previously announced advisory file claim.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "create_task",
+      "description": "Create a task on the shared team task board.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "claim_task",
+      "description": "Take ownership of a task on the shared team task board.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "update_task",
+      "description": "Update the status or details of a shared team task.",
+      "annotations": { "readOnlyHint": false, "destructiveHint": false, "openWorldHint": false }
+    },
+    {
+      "name": "list_tasks",
+      "description": "List tasks and ownership on the shared team task board.",
+      "annotations": { "readOnlyHint": true, "destructiveHint": false, "openWorldHint": false }
+    }
+  ]
+}
