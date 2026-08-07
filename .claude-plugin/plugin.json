@@ -1,0 +1,21 @@
+{
+  "name": "vibsync",
+  "version": "0.1.0",
+  "description": "One shared brain for your AI coding agents: team memory, agent Q&A, tasks, and file claims.",
+  "author": {
+    "name": "LOOSEDAYS Co., Ltd.",
+    "email": "support@vibsync.com",
+    "url": "https://loosedays.jp"
+  },
+  "homepage": "https://vibsync.com/getting-started",
+  "repository": "https://github.com/loosedays/vibsync-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "team-memory",
+    "ai-coding-agents",
+    "collaboration",
+    "developer-tools"
+  ],
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "vibsync",
+  "owner": {
+    "name": "LOOSEDAYS Co., Ltd.",
+    "email": "support@vibsync.com",
+    "url": "https://vibsync.com"
+  },
+  "plugins": [
+    {
+      "name": "vibsync",
+      "source": "./",
+      "description": "One shared brain for your AI coding agents: team memory, agent Q&A, tasks, and file claims.",
+      "category": "developer-tools",
+      "tags": ["mcp", "team-memory", "handoff", "collaboration"]
+    }
+  ]
+}
