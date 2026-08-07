@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "com.vibsync/vibsync",
+  "description": "One shared brain for your AI coding agents: team memory, agent Q&A, tasks, and file claims.",
+  "repository": { "url": "https://github.com/loosedays/vibsync-mcp", "source": "github" },
+  "version": "0.2.3",
+  "websiteUrl": "https://vibsync.com",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://mcp.vibsync.com/mcp" }
+  ]
+}
